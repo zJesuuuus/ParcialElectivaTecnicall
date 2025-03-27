@@ -1,7 +1,15 @@
-body{
-    background-color: #dfdfdf;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
+body{
+    background-color: #dfdfdf;
+    display: flex;
+    height: 100vh;
+}
 
 .form{
     justify-content: center;
@@ -52,4 +60,38 @@ a{
 }
 a:hover{
     color: #152eb8;
+}
+
+.menu {
+    width: 250px;
+    background: gray;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.menu h2 {
+    margin-bottom: 20px;
+    height: 10px ;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.menu a:hover {
+    background: gray;
+}
+
+.wl {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
