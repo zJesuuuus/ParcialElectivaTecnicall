@@ -9,17 +9,19 @@
     <main>
         <div class="form">
             <h1>Iniciar Sesión</h1>
-            <label for="nombre">Nombre</label>
+            <form action="" method="post">
+        
+             
+                    <label for="usuario">Usuario:</label> 
+                    <input type="email" id="usuario" name="usuario"  required >
             <br>
-            <input type="email" id="nombre" required  >
-            <br>
-            <label for="contraseña">Contraseña</label>
-            <br>
-            <input type="text" name="" id="contraseña" required minlength="8">
-            <br>
-            <button>Ingresar</button>
-
-            <p>¿No tienes una cuenta? <a href="">Registrate</a></p>
+                    <label for="contraseña">Contraseña:</label> 
+            
+                    <input type="text" name="" id="contraseña" required minlength="8">
+                <br>
+                <button type="submit">Ingresar</button>
+   </form>
+            <p>¿No tienes una cuenta? <a href="register.html">Registrate</a></p>
         </div>
     </main>
 </body>
